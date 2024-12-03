@@ -1,15 +1,15 @@
-0TnOYISbd1XYRBk9myaseg
-4D75GcNG95ebPtNvoNVXhz
 
 CLIENT_ID = str("76b073b157954df59d3dbd1159b3a801")
 CLIENT_SECRET = str("e5fbe650e2aa40e7ad8060143b836aca")
 
-https://www.youtube.com
+link de redirecionamento:
+github.com/raulcambraia
 
+link para request da autorização:
 https://accounts.spotify.com/authorize?client_id=76b073b157954df59d3dbd1159b3a801&response_type=code&redirect_uri=https%3A%2F%2Fgithub.com%2Fraulcambraia
 
-
+prompt de comando para retornar o token:
 curl -H "Authorization: Basic NzZiMDczYjE1Nzk1NGRmNTlkM2RiZDExNTliM2E4MDE6ZTVmYmU2NTBlMmFhNDBlN2FkODA2MDE0M2I4MzZhY2E=" -d grant_type=authorization_code -d code=AQA096YJ9U515SM1Y-vpezSzWNVjqNWYOdKLUeDAHZQKaLw4tLwyuL2doFJ6nAr_2uLUbc3Gy1FWa_eugfk69qZJg1alN-QtHIPMOkUO31dCOE2HBHtkbg6EsRolTWPB7NHywuErYe3TpUbbG573ii7uOz_znyTkbE0SN9hKRK-TGTA -d redirect_uri=https%3A%2F%2Fgithub.com%2Fraulcambraia https://accounts.spotify.com/api/token
 
-
+mensagem de retorno:
 {"access_token":"BQDkxt373CL21TsUDAMzgeBbqz9iV_Mxwrpl7rRTD6mPz6scfj7YOAEGpi3X7YACvkiqk_OoeHbxaCxQynIFP8YRQMUkCQRwOZLFvjdSD_yeuk5iKrjmR-bNKcZPg7vTk7PgSQ2URIXIEPa8BbnhAoYiiAmR_bT9auc62a3O1GomaIKwzH6U5PppziSb6KQ1JJwdN7hVVrnexQ","token_type":"Bearer","expires_in":3600,"refresh_token":"AQDsnKoH3ZIqTVK1lyTFGQ7Cb67Ukm950ba17yWcbnEkL3iXoo2hokELPUseZheJb1zvz5ob11IAjtFINZRaFi203gXPOshpcptAbFK5pl7mR1raXAHx2Ca7N3z5uQWHMh4"}

@@ -44,3 +44,7 @@ related_artists = get_artist_related(token, artist_id)
 
 for artists in (related_artists):
    print(f"{artists['name']}")
+
+"""
+primeiro teste: acesso ao token de forma automatizada e apenas a função de printar os artistas a fim de teste
+"""
